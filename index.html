@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Fil's Calculator</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+</style>
+
+</head>
+<body onload="calculatorOn()">
+<div class="main">
+    <div class="calculator">
+        <div id=calcDisplay>
+        
+        </div>
+        <div class="calcButtons noselect">
+        <div class="calcRow">
+            <div class="numberButton" data-value="1">1</div>
+            <div class="numberButton">4</div>
+            <div class="numberButton">7</div>
+        </div>
+        <div class="calcRow">
+            <div class="numberButton">2</div>
+            <div class="numberButton">5</div>
+            <div class="numberButton">8</div>
+        </div>
+        <div class="calcRow">
+            <div class="numberButton">3</div>
+            <div class="numberButton">6</div>
+            <div class="numberButton">9</div>
+        </div>
+        <div class="calcRow">
+            <div id="clearButton">C</div>
+            <div id="equals">=</div>
+            <div class="numberButton">0</div>
+        </div>
+        </div>
+       <!-- <div class="operations">
+            
+        </div> -->
+        <div class="operations noselect">
+            <div class="operatorButton">+</div>
+            <div class="operatorButton">-</div>
+            <div class="operatorButton">x</div>
+            <div class="operatorButton">÷</div>
+        </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="calcJS.js">
+</script>
+</html>

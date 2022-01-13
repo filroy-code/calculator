@@ -1,0 +1,149 @@
+.main {
+    height: 2000px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.operations {
+    display: flex;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+    font-size: 50px;
+}
+
+.calculator {
+    margin-top: 100px;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cadetblue;
+    border-radius: 20px;
+}
+
+.calcButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.numberButton {
+    border-style: solid;
+    border: 5px;
+    border-color: black;
+    background-color: burlywood;
+    margin: 10px 4px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 30px;
+    height: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.operatorButton {
+    border-style: solid;
+    border: 5px;
+    border-color: black;
+    background-color: burlywood;
+    margin: 10px 4px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 30px;
+    height: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    text-justify: auto;
+}
+
+#equals {
+    border-style: solid;
+    border: 5px;
+    border-color: black;
+    background-color: rgb(68, 90, 211);
+    margin: 10px 4px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 30px;
+    height: 40px;
+    font-family: 'Dosis';
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    text-justify: auto;
+}
+
+#clearButton {
+    border-style: solid;
+    border: 5px;
+    border-color: black;
+    background-color: rgb(211, 98, 98);
+    margin: 10px 4px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 30px;
+    height: 40px;
+    font-family: 'Dosis';
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    text-justify: auto;
+}
+
+#clearButton:hover {
+    background-color: rgb(212, 86, 86);
+}
+
+#clearButton:active {
+    background-color: rgb(207, 74, 74);
+}
+
+#equals:hover {
+    background-color: rgb(57, 80, 212);
+}
+
+#equals:active {
+    background-color: rgb(41, 67, 214);
+}
+
+.numberButton:hover, .operatorButton:hover {
+    background-color: rgb(226, 176, 111);
+}
+
+.numberButton:active, .operatorButton:active {
+    background-color: rgb(224, 168, 94);
+}
+
+#calcDisplay {
+    width: 240px;
+    height: 40px;
+    border-style: solid;
+    border: 5px;
+    border-color: black;
+    background-color:gainsboro;
+    margin: 30px 4px;
+    padding: 15px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    text-align: right;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
